@@ -33,3 +33,5 @@ From minute 2 of [Episode 242](http://www.merlinmann.com/roderick/ep-242-mr-jing
 * Look for ways to speed up the transcription. 
 * Try chunks longer than 15 seconds. 
 * Explore using a model to split up John and Merlin's voices into separate audio files. 
+* Try a different codec. 
+	* The docs say, "If your application must use a lossy codec to conserve bandwidth, we recommend the AMR_WB, OGG_OPUS or SPEEX_WITH_HEADER_BYTE codecs, in that preferred order." [https://cloud.google.com/speech/docs/best-practices]()

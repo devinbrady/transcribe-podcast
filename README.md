@@ -32,6 +32,7 @@ From minute 2 of [Episode 242](http://www.merlinmann.com/roderick/ep-242-mr-jing
 * Run the script on a remote Google Cloud server rather than locally.
 * Look for ways to speed up the transcription. 
 * Try chunks longer than 15 seconds. 
+* Try splitting chunks at silences between words, rather than a fixed length. 
 * Explore using a model to split up John and Merlin's voices into separate audio files. 
 * Try a different codec. 
 	* The docs say, "If your application must use a lossy codec to conserve bandwidth, we recommend the AMR_WB, OGG_OPUS or SPEEX_WITH_HEADER_BYTE codecs, in that preferred order." [https://cloud.google.com/speech/docs/best-practices]()
